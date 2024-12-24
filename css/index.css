@@ -1,3 +1,7 @@
+@font-face {
+    font-family: dropsignalindigo;
+    src: url(../fonts/Drop Signal Indigo.ttf);
+}
 body{
     background-image: url("../images/background.png");
     background-size: cover;
@@ -11,4 +15,5 @@ body{
         background-color: buttonface;
         text-decoration: none;
     }
+    font-family: dropsignalindigo;
 }
