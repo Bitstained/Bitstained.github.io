@@ -8,10 +8,8 @@
             h1 {text-align: center;font-family:dropsignalindigo}
             div {text-align: center;color=white}
             .hub {
-                background-image: url("../images/hub.png");
-                background-size: fixed;
-                background-position: center;
-                background-repeat: no-repeat;
+                border-style: none none solid;
+                border-color: white
                 float: center;
                 width: 75%;
                 padding: 15px;
@@ -19,10 +17,15 @@
                 margin-right: 25%;
                 margin-top: 12.5%;
             }
+            .hubback {
+                position: absolute;
+                z-index: -1;
+            }
         </style>
         <link rel="stylesheet" href="../css/index.css">
     </head>
     <body>
+        <img src=""../images/hub.png"" class=hubback>
         <div class="hub"  style="background-color:#aaa;">
           <h1>
             Hello World
