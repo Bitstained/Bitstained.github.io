@@ -1,5 +1,5 @@
 body{
-    background-image: url("images/background.png");
+    background-image: url("../images/background.png");
     background-size: cover;
     background-position: 50% 50%;
     background-color: lightblue;
@@ -10,5 +10,13 @@ body{
         color: buttontext;
         background-color: buttonface;
         text-decoration: none;
-    } 
+    }
+    @font-face {
+    
+        font-family: "dropsignalindigo";
+        src: url(../fonts/Drop Signal Indigo.ttf) format("truetype");
+    }
+    p.customfont { 
+        font-family: "dropsignalindigo", Verdana, Tahoma;
+    }
 }
