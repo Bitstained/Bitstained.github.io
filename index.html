@@ -7,35 +7,68 @@
         <style>
             h1 {text-align: center;font-family:dropsignalindigo}
             div {text-align: center;color=white}
+            
+            .navigator button{
+                position: sticky;
+                background-color: #000000;
+                color: white;
+                border-style: solid;
+                border-color: white;
+                padding: 10px;
+                cursor: pointer;
+                width: 75%;
+                margin-inline:12.5%;
+            }
+            .navigator:after {
+              content: "";
+              clear: both;
+              display: table;
+            }
+            .navigator button:not{
+            border-right: none;
+            }
+            .navigator button:hover {
+                background-color: #FFFFFF;
+                color: black;
+            }
+            
             .hub {
                 border-style: none none solid;
                 border-color: white
                 width: 60%;
                 padding: 15px;
-                margin-inline: auto;
+                margin-inline:12.5%;
                 margin-top: 12.5%;
                 z-index: 1;
                 position: static;
             }
             .hubback {
+                margin: auto;
+                margin-top: 12.5%;
                 z-index: -1;
+                position: relative;
             }
         </style>
         <link rel="stylesheet" href="../css/index.css">
     </head>
     <body>
-        <div class="hub">
-            <img src="../images/hub.png" class=hubback height=364 width=500>
-            <h1>
-                Sturggling
-            </h1>
-            <p>
-                life is a grand struggle
-            </p>
-            <p>
-                test page1
-            </p>
+        /* Navigator */
+        <div class="navigator">
           <a href="https://bitstained.github.io/testpage">Test Page</a>
+            <button>error page</button>
+        </div>
+        
+        <img src="../images/hub.png" class=hubback height=364 width=500>
+        <div class="hub">
+          <h1>
+            Sturggling
+          </h1>
+          <p>
+            life is a grand struggle
+          </p>
+          <p>
+            test page1
+          </p>
         </div>
     </body>
 </html>
