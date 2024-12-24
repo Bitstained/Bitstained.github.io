@@ -12,11 +12,7 @@ body{
         text-decoration: none;
     }
     @font-face {
-    
         font-family: "dropsignalindigo";
         src: url(../fonts/Drop Signal Indigo.ttf) format("truetype");
-    }
-    p.customfont { 
-        font-family: "dropsignalindigo", Verdana, Tahoma;
     }
 }
