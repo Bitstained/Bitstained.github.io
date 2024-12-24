@@ -2,7 +2,7 @@ body{
     background-image: url("../images/background.png")
     background-size: cover;
     background-position: 50% 50%;
-    bacgrkound-color: lightblue;
+    background-color: lightblue;
     a.button {
         padding: 1px 6px;
         border: 1px outset buttonborder;
