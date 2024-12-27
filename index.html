@@ -33,10 +33,17 @@
             
             .hub {
                 border-style: none none solid;
-                border-color: white
+                border-color: red;
                 width: 60%;
                 padding: 15px;
                 margin:auto;
+                z-index:1;
+            }
+            .hubback {
+                position: absolute;
+                display:block;
+                z-index:-1;
+            }
         </style>
         <link rel="stylesheet" href="../css/index.css">
     </head>
@@ -56,10 +63,8 @@
             </div>
         </div>
         
-        <div class="hub" style="position: static;z-index:-1">
-        <img src="../images/hub.png" height=364 width=500>
-        </div>
-        <div class="hub" style="position: fixed;z-index:1">
+        <div class="hub">
+          <img class="hubback" src="../images/hub.png" height=364 width=500>
           <h1>
             Sturggling
           </h1>
