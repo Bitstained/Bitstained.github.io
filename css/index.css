@@ -19,6 +19,7 @@ body{
         animation-timing-function: linear;
         animation-iteration-count: infinite;
         z-index:-1;
+    }
     
     .title{
         text-align:center;
@@ -33,6 +34,7 @@ body{
         background-color:black;
         z-index:-1;
     }
+    
     .footercontent{
         color:white;
         margin:15px;
