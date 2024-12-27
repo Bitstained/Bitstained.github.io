@@ -13,3 +13,23 @@ body{
         text-decoration: none;
     }
 }
+
+.content {
+    align-content: center;
+    height: 1080px;
+    position:relative;
+    text-align: center;
+}
+
+.logo{
+    animation-name: BGscroll;
+    animation-duration: 20s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    z-index:-1;
+}
+
+@keyframes BGscroll {
+    from {transform: rotate(0deg)}
+    to {transform: rotate(360deg)}
+}
