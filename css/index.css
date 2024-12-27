@@ -5,39 +5,39 @@ body{
     background-position: 50% 50%;
     background-color: black;
     margin:0px;
-
-    .container{
-        padding:25px;
-        width: 60%;
-        margin:auto;
-        background-color:#1e1880;
-    }
-    
-    .logo{
-        animation-name: BGscroll;
-        animation-duration: 20s;
-        animation-timing-function: linear;
-        animation-iteration-count: infinite;
-        z-index:-1;
-    }
-    
-    .title{
-        text-align:center;
-        align-content:center;
-    }
-    
-    .footer{
-        height:100px;
-        width:100%;
-        position:absolute;
-        bottom:0%;
-        background-color:black;
-        z-index:-1;
-    }
-    
-    .footercontent{
-        color:white;
-        margin:15px;
-          display: flex;
-    }
 }
+
+.container{
+    padding:25px;
+    width: 60%;
+    margin:auto;
+    background-color:#1e1880;
+}
+
+.logo{
+    animation-name: BGscroll;
+    animation-duration: 20s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    z-index:-1;
+}
+
+.title{
+    text-align:center;
+    align-content:center;
+}
+
+.footer{
+    height:100px;
+    width:100%;
+    position:absolute;
+    bottom:0%;
+    background-color:black;
+    z-index:-1;
+}
+
+.footercontent{
+    color:white;
+    margin:15px;
+      display: flex;
+    }
