@@ -21,6 +21,7 @@ body{
     padding:25px;
     width: 60%;
     margin:auto;
+    height:1000px;
     background-color:#1e1880;
 }
 
@@ -50,4 +51,4 @@ body{
     color:white;
     margin:15px;
       display: flex;
-    }
+}
