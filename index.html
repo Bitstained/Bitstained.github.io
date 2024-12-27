@@ -37,13 +37,11 @@
                 width: 60%;
                 padding: 15px;
                 margin:auto;
-                z-index: 1;
                 position: static;
             }
             .hubback {
                 width: 60%;
                 margin:auto;
-                z-index: -1;
                 position: fixed;
             }
         </style>
@@ -65,10 +63,10 @@
             </div>
         </div>
         
-        <div class="hubback">
+        <div class="hub" style="z-index:-1">
         <img src="../images/hub.png" height=364 width=500>
         </div>
-        <div class="hub">
+        <div class="hub" style="z-index:1">
           <h1>
             Sturggling
           </h1>
