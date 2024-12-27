@@ -11,6 +11,7 @@ body{
         color: buttontext;
         background-color: buttonface;
         text-decoration: none;
+    padding:0px
     }
     .content {
         align-content: center;
