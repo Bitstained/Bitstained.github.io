@@ -1,3 +1,4 @@
+
 body{
     color: white;
     background-image: url("../images/background.png");
@@ -6,6 +7,15 @@ body{
     background-color: black;
     margin:0px;
 }
+
+
+.content {
+    align-content: center;
+    top: 200px;
+    position:relative;
+    text-align: center;
+}
+
 
 .container{
     padding:25px;
