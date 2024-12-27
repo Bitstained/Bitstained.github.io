@@ -43,6 +43,7 @@ body{
     width:100%;
     position: fixed;
     bottom:0%;
+    content-align:center;
     background-color:black;
     z-index:-1;
 }
