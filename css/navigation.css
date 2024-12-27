@@ -1,5 +1,6 @@
 .topnav {
   overflow: hidden;
+  position:sticky;
   background-color: black;
 }
 
@@ -8,7 +9,6 @@
   color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
-  position:sticky;
   text-decoration: none;
   font-size: 17px;
 }
