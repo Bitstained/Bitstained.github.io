@@ -30,10 +30,16 @@ body{
     }
     
     .footer{
-        position:absolute;
-        bottom:0%;
         height:100px;
         width:100%;
+        position:absolute;
+        bottom:0%;
         background-color:black;
+        z-index:-1;
+    }
+    .footercontent{
+        color:white;
+        margin:15px;
+          display: flex;
     }
 }
