@@ -11,26 +11,26 @@ body{
         color: buttontext;
         background-color: buttonface;
         text-decoration: none;
-    padding:0px
     }
-    .content {
-        align-content: center;
-        top: 200px;
-        position:relative;
-        text-align: center;
-    }
+    margin:0px;
+}
 
-    .logo{
-        animation-name: BGscroll;
-        animation-duration: 20s;
-        animation-timing-function: linear;
-        animation-iteration-count: infinite;
-        z-index:-1;
-    }
+.content {
+    align-content: center;
+    top: 200px;
+    position:relative;
+    text-align: center;
+}
 
-    @keyframes BGscroll {
-        from {transform: rotate(0deg)}
-        to {transform: rotate(360deg)}
-    }
-    
+.logo{
+    animation-name: BGscroll;
+    animation-duration: 20s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    z-index:-1;
+}
+
+@keyframes BGscroll {
+    from {transform: rotate(0deg)}
+    to {transform: rotate(360deg)}
 }
