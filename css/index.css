@@ -43,13 +43,8 @@ body{
     width:100%;
     position: fixed;
     bottom:0%;
+    display: flex;
     content-align:center;
     background-color:black;
-    z-index:-1;
-}
-
-.footercontent{
-    color:white;
-    margin:15px;
-      display: flex;
+    text-align: center;
 }
