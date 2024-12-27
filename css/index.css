@@ -19,10 +19,6 @@ body{
         animation-timing-function: linear;
         animation-iteration-count: infinite;
         z-index:-1;
-    }
-    .container{
-        padding:25px;   
-    }
     
     .title{
         text-align:center;
