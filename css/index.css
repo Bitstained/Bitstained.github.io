@@ -14,7 +14,7 @@ body{
     }
     .content {
         align-content: center;
-        height: 100%;
+        top: 200px;
         position:relative;
         text-align: center;
     }
